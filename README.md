@@ -41,8 +41,14 @@ dependências externas).
 
 1. Abra a pasta do projeto no VS Code.
 2. Instale a extensão Python da Microsoft.
-3. Se o VS Code pedir para selecionar um interpretador, escolha Python 3.10+.
-4. Use o botão "Run and Debug" ou a opção "Run Biblioteca".
+3. Quando o VS Code pedir para selecionar um interpretador, escolha a opção para instalar ou selecionar o Python.
+4. Se aparecer a opção "Install Python", clique nela.
+5. Aguarde a instalação do interpretador pelo próprio VS Code.
+6. Depois use o botão "Run and Debug" ou a opção "Run Biblioteca".
+
+Se o VS Code não mostrar a opção automaticamente, abra a paleta de comandos com Ctrl+Shift+P e procure por:
+- "Python: Select Interpreter"
+- ou "Python: Create Environment"
 
 ### Terminal
 
