@@ -1,0 +1,1 @@
+id,usuario_id,livro_id,exemplar_id,data_emprestimo,data_prevista_devolucao,data_devolucao,renovacoes,multa,status
