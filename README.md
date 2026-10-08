@@ -1,5 +1,26 @@
 # Sistema para Bibliotecas
 
+## Versão de terminal com criação de conta
+
+A versão em [`app_terminal/`](app_terminal/README.md) funciona somente com
+Python e inclui cadastro de conta, login persistente e gestão de usuários,
+autores, categorias e livros. Para executá-la a partir da raiz do repositório:
+
+```console
+python app_terminal/main.py
+```
+
+Escolha **2 - Criar usuário** no primeiro acesso e depois **1 - Entrar**.
+Esta versão não cria login padrão. As contas e cadastros ficam em
+`app_terminal/dados/`, ignorado pelo Git. Para testar esta versão:
+
+```console
+cd app_terminal
+python -m unittest discover -s tests -v
+```
+
+As instruções abaixo descrevem a versão original mantida na raiz do projeto.
+
 Trabalho de Programação Orientada a Objetos (POO) — sistema de gerenciamento
 de biblioteca com CRUD de usuários, autores, categorias e livros, controle
 de empréstimos/devoluções/renovações, relatórios e autenticação com níveis

@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dados/
+.env
+.env.*
+.publicacao-github/
